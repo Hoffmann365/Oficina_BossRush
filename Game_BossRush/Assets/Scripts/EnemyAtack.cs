@@ -2,25 +2,28 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyAtack : MonoBehaviour
 {
     
     [Header("Variaveis: ")]
-    public int life = 40;
+    public float life = 40f;
+    public float currentHealth;
+    public float speed = 2;
+    public float TimeForMove = 1.5f;
+    public float timer;
+    public float walktime;
+    public float bulletSpeed = 10f;
+    public float fireRate = 5f;
+    public float timeSinceLastShot = 5f;
     public bool stage1 = true;
     public bool stage2;
     public bool walkRight = true;
     public bool Isdead;
     public bool isfire;
     public bool parado;
-    public float speed = 2;
-    public float timer;
-    public float walktime;
-    public float bulletSpeed = 10f;
-    public float fireRate = 5f;
-    public float timeSinceLastShot = 5f;
-    
+
     [Header("Componentes: ")]
     public Rigidbody2D rig;
     public Animator anim;
@@ -29,11 +32,17 @@ public class EnemyAtack : MonoBehaviour
     public Transform firePoint;
     public Transform player;
     public Transform firepoint2;
+    public AudioClip[] audios;
+    public AudioSource source;
+    public Slider healthSlider;
     
     private void Start()
     {
+        source = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
+        currentHealth = life;
+        UpdateHealthBar();
     }
     void Update()
     {
@@ -41,6 +50,16 @@ public class EnemyAtack : MonoBehaviour
         {
             dead();
             RotationsAndCalculos();
+        }
+
+        if (isfire == true)
+        {
+            TimeForMove -= Time.deltaTime;
+            if (TimeForMove <= 0)
+            {
+                isfire = false;
+                TimeForMove = 1.5f;
+            }
         }
 
     }
@@ -54,27 +73,22 @@ public class EnemyAtack : MonoBehaviour
 
     void Shoot()
     {
+        isfire = true;
         anim.SetInteger("Transition", 3);
-        // Criar uma bala
+        PlaySound(1);
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-
-        // Aplicar força à bala
         rb.velocity = firePoint.right * bulletSpeed;
-
-        // Destruir a bala após um tempo (ajuste conforme necessário)
         Destroy(bullet, 2f);
     }
     void Shoot2()
     {
+        isfire = true;
         anim.SetInteger("Transition", 4);
-            // Criar uma bala
+        PlaySound(0);
         GameObject bullet2 = Instantiate(this.bullet2, firepoint2.position, firepoint2.rotation);
-            
-            // Destruir a bala após um tempo (ajuste conforme necessário)
         Destroy(bullet2, 2f);
     }
-    
     void move()
     {
         if (stage1 == true)
@@ -88,14 +102,20 @@ public class EnemyAtack : MonoBehaviour
             }
             if (walkRight)
             {
-                anim.SetInteger("Transition", 1);
+                if (isfire == false)
+                {
+                    anim.SetInteger("Transition", 1);
+                }
                 transform.eulerAngles = new Vector2(0,0);
                 rig.velocity = Vector2.right * speed;
             }
 
             if (!walkRight)
             {
-                anim.SetInteger("Transition", 1);
+                if (isfire == false)
+                {
+                    anim.SetInteger("Transition", 1);
+                }
                 transform.eulerAngles = new Vector2(0,180);
                 rig.velocity = Vector2.left * speed;
             }
@@ -107,7 +127,10 @@ public class EnemyAtack : MonoBehaviour
             timer = 0f;
             walktime = 0f;
             walkRight = true;
-            anim.SetInteger("Transition", 6);
+            if (isfire == false)
+            {
+                anim.SetInteger("Transition", 1);
+            }
             transform.eulerAngles = new Vector2(0,180);
             rig.velocity = Vector2.right * speed;
 
@@ -115,18 +138,18 @@ public class EnemyAtack : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // Tira vida do Boss ao colider com objeto com a tag player
         if (col.gameObject.tag == "BalaPlayer")
         {
-            life -=10;
+            life--;
+            currentHealth = Mathf.Clamp(currentHealth, 0f, life);
+            UpdateHealthBar();
         }
     }
-
     void dead()
     {
-        //Verificar se o Boss Ainda está vivo
         if (life <= 0)
         {
+            PlaySound(2);
             Isdead = true;
             anim.SetTrigger("Dead");
             Destroy(GetComponent<Rigidbody2D>());
@@ -135,24 +158,16 @@ public class EnemyAtack : MonoBehaviour
             
         }
     }
-
     void RotationsAndCalculos()
     {
-        // Verifique se o jogador está disponível (atribua o jogador ao campo 'player' de alguma forma).
         if (player == null)
         {
             Debug.LogWarning("Player not found.");
             return;
         }
-
-        // Calcule a direção do jogador em relação ao boss.
         Vector3 directionToPlayer = player.position - transform.position;
         directionToPlayer.Normalize();
-
-        // Calcule o ângulo da direção para o jogador.
         float angle = Mathf.Atan2(directionToPlayer.y, directionToPlayer.x) * Mathf.Rad2Deg;
-
-        // Rotação do boss para enfrentar o jogador.
         if (stage1 == true)
         {
             transform.rotation = Quaternion.Euler(new Vector3(0, angle, 0));
@@ -176,4 +191,17 @@ public class EnemyAtack : MonoBehaviour
             stage2 = true;
         }
     }
+    void PlaySound(int sound)
+    {
+        if (sound >= 0 && sound < audios.Length)
+        {
+            source.clip = audios[sound];
+            source.Play();
+        }
+    }
+    private void UpdateHealthBar()
+    {
+        healthSlider.value = currentHealth;
+    }
+    
 }

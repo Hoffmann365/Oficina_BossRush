@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3129650851124279496}
   - component: {fileID: 4331273376785822972}
   - component: {fileID: 8455975727968197572}
-  - component: {fileID: 1447618563296867331}
-  m_Layer: 0
+  - component: {fileID: 3539500536798064256}
+  m_Layer: 6
   m_Name: Laser
   m_TagString: RaioBoss
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 35
   m_Sprite: {fileID: 1602860009, guid: 1680e61ead22cda468abd9b9a3426568, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -106,7 +106,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1447618563296867331
+--- !u!61 &3539500536798064256
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,10 +116,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08829224, y: -0.009377953}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,5 +130,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.59, y: 0.23}
+  m_Size: {x: 2.5058782, y: 0.16252139}
   m_EdgeRadius: 0
