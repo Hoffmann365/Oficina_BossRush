@@ -8,6 +8,7 @@ TagManager:
   - BalaPlayer
   - BulletBoss
   - RaioBoss
+  - Flecha
   layers:
   - Default
   - TransparentFX

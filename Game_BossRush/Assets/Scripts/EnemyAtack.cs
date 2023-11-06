@@ -15,8 +15,8 @@ public class EnemyAtack : MonoBehaviour
     public float timer;
     public float walktime;
     public float bulletSpeed = 10f;
-    public float fireRate = 5f;
-    public float timeSinceLastShot = 5f;
+    public float fireRate = 3f;
+    public float timeSinceLastShot = 3f;
     public bool stage1 = true;
     public bool stage2;
     public bool walkRight = true;
@@ -144,6 +144,13 @@ public class EnemyAtack : MonoBehaviour
             currentHealth = Mathf.Clamp(currentHealth, 0f, life);
             UpdateHealthBar();
         }
+
+        if (col.gameObject.tag == "RaioPlayer")
+        {
+            life -= 2;
+            currentHealth = Mathf.Clamp(currentHealth, 0f, life);
+            UpdateHealthBar();
+        }
     }
     void dead()
     {
@@ -177,12 +184,12 @@ public class EnemyAtack : MonoBehaviour
         if (timeSinceLastShot <=0 && stage1 == true)
         {
             Shoot();
-            timeSinceLastShot = 4f;
+            timeSinceLastShot = 3f;
         }
         if (timeSinceLastShot <=0 && stage2 == true)
         {
             Shoot2();
-            timeSinceLastShot = 5f;
+            timeSinceLastShot = 3.5f;
         }
 
         if (life <= 20)
