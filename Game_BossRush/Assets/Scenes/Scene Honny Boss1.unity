@@ -320,8 +320,8 @@ MonoBehaviour:
   timer: 1.5
   walktime: 1.47
   bulletSpeed: 15
-  fireRate: 5
-  timeSinceLastShot: 4
+  fireRate: 3
+  timeSinceLastShot: 3
   stage1: 1
   stage2: 0
   walkRight: 1

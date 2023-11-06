@@ -138,7 +138,7 @@ public class EnemyAtack : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "BalaPlayer")
+        if (col.gameObject.tag == "Flecha")
         {
             life--;
             currentHealth = Mathf.Clamp(currentHealth, 0f, life);
