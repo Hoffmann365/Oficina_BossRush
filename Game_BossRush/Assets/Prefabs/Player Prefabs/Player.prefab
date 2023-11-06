@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &947185579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -184,3 +184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76ec718ac11702f408bb345db2f08799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeapon: 0
+  speed: 5
+  jumpForce: 10
+  onAir: 0
+  unlockWpnSwitch: 0
