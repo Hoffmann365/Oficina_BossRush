@@ -738,6 +738,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  walkTime: 4
+  walkRight: 1
   attackRange: 2
   attackCooldown: 2
   health: 0
