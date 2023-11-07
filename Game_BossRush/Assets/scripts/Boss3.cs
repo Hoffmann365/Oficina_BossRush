@@ -1,77 +1,101 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
 public class Boss3 : MonoBehaviour
 {
-    public float speed;
-    public float walkTime;
-    public float life = 40f;
-    public float currentHealth;
-
+    public float speed = 2.0f;
+    public float attackRange = 2.0f;
+    public float attackCooldown = 2.0f;
+    
     public int health;
+    private bool enraged;
+    private Transform playerTransform;
+    private float lastAttackTime;
 
-    private float timer;
-    private bool walkRight;
-
-    private Rigidbody2D rig;
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        UpdateHealthBar();
-        rig = GetComponent<Rigidbody2D>();
+        health = 100;
+        enraged = false;
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        lastAttackTime = Time.time;
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    public void Update()
     {
-        timer += Time.deltaTime;
-        
-        if(timer >= walkTime)
+        if (health <= 50 && !enraged)
         {
-            walkRight = !walkRight;
-            timer = 0f;
+            Enrage();
         }
-        if (walkRight)
+
+        if (enraged)
         {
-            transform.eulerAngles = new Vector2(0, 0);
-            rig.velocity = Vector2.right * speed;
+            if (CanAttack())
+            {
+                //comportamento agressivo
+                AttackPlayer();
+            }
+            
         }
         else
         {
-            transform.eulerAngles = new Vector2(0, 180);
-            rig.velocity = Vector2.left * speed;
+            //comportamento padrão
+            Wander();
         }
-        
     }
 
-    public void OnCollisionEnter2D(Collision2D col)
+    private void Enrage()
     {
-        if (col.gameObject.tag == "Flecha")
-        {
-            life--;
-            currentHealth = Math.Clamp(currentHealth, 0f, life);
-            UpdateHealthBar();
-        }
+        enraged = true;
+        //mudar o comportamento após ficar enfurecido
+    }
 
-        if (col.gameObject.tag == "RaioPlayer")
-        {
-            life -= 2;
-            currentHealth = Math.Clamp(currentHealth, 0f, life);
-            UpdateHealthBar();
-        }
+    private void Wander()
+    {
+        //Lógica de movimento padrão 
+        Vector3 direction = (playerTransform.position - transform.position).normalized;
+        transform.position += direction * speed * Time.deltaTime;
+    }
 
-        void dead()
+    private void AttackPlayer()
+    {
+        //Lógica de ataque agressivo
+        if (Vector3.Distance(transform.position, playerTransform.position) <= attackRange)
         {
-            if (life <= 0)
-            {
-                Isdead = true;
-                Animation.SetTrigger("Dead");
-                Destroy(GetComponent<Rigidbody2D>());
-                Destroy(GetComponent<BoxCollider>());
-                Destroy(gameObject, 5f);
-            }
+            //StartCoroutine("ATK");
         }
+    }
+
+    /*IEnumerator ATK()
+    {
+        anim.SetTrigger("Attack");
+        yield return new WaitForSeconds(1f);
+    }*/
+
+    private bool CanAttack()
+    {
+        return (Time.time - lastAttackTime) >= attackCooldown;
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            //lógica de colisão com o jogador
+            int damage = 10;
+            TakeDamage(damage);
+        }
+    }
+
+    private void TakeDamage(int damage)
+    {
+        health -= damage;
     }
 }
