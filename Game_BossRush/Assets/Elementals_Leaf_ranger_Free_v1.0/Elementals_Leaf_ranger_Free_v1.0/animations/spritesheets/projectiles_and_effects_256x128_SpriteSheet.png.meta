@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,6 +69,54 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -78,7 +126,2485 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1084
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab152c45f4eef44abcbe6c48fe1f66
+      internalID: 1092269567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 956
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e340686ba40b76448f2ef3db3cf20c5
+      internalID: 1582912372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 954
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae522b52309c29444ae0db9a6bac0d1c
+      internalID: 1088242563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 956
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03d667af51044645bcd85231f54fbe1
+      internalID: 532254142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 956
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55b3fa31ee67b941a23f21ee9117e24
+      internalID: -1919076938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 956
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeec24e13bea96f439ea6aace63f633e
+      internalID: -73109084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 956
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d427b86d045051440903c027276f6b52
+      internalID: -985671501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 828
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01924fc98dfa874f9daebba19b6507d
+      internalID: -123988440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 821
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daef555b39d18a469b58d4ff4205361
+      internalID: -2079396096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 803
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246be1d39db6b074bbcd40026121019c
+      internalID: -200226310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 796
+        width: 78
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8f1ff36a494aa4596dda2a03e43bf6
+      internalID: 750756386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 796
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1bb159fec87194aac3e55385c8a1ad
+      internalID: 1257153710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 796
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214754f188263fe4aa07a8fb1182dc21
+      internalID: -1139051519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 796
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fdab8a8cbe4744cb72ac5c2d1bada5
+      internalID: -753725560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 796
+        width: 84
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bdf9ddf2d91b489fe7d5a093117b2
+      internalID: 1553846300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 684
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa221ff0ad65a744098aef5cbff89901
+      internalID: -707922550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 688
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f9c3de376127d41838bad88b8de3fe
+      internalID: -1594269889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 693
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd4010c9040e7a42a34dfa86551e3ca
+      internalID: 806078573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 722
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5ef03904ce2df4ea641dfff3f91c02
+      internalID: -983616785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 724
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd1abdb380b4914cbfb09034587c497
+      internalID: 227559400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 722
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645375e910df8474b99135c97b766b5b
+      internalID: 762952655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 700
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a3b029082c03f4fb792ea3f5d687bf
+      internalID: 747523234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 697
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0608d1346ffaf2428e4420158c0eac8
+      internalID: -503588679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 693
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218423f52f551884980bc4e0c6f693ab
+      internalID: -1514797551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 693
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd64107291343984a9b7903e538d8db8
+      internalID: 321507399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 693
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0d5915df73ec34f98d804aaf237eeb
+      internalID: -437902158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 682
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eefdd7e273e9a409370be877c108fc
+      internalID: 96227768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 679
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9839866a1bac1114ba7444060e19625c
+      internalID: 2138981299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 686
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d0d310ad0ca044e8826c4226af1667
+      internalID: 1476277512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 679
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de563bb588b0f4bbc48121cac499c4
+      internalID: 851059636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 682
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d52186a3df7ca4d8ad7238f66fa065
+      internalID: -1462796521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 560
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f828744c435ac344cbb39d8886655350
+      internalID: -291810397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 436
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010fe4b7dafb14b438e2ba58dd854274
+      internalID: 428105039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 436
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879685f50342ac41beeb976f0cb35bc
+      internalID: -133069174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 436
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c199c13f25f0d45ba15779bf8993ab
+      internalID: 27506002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 436
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad417e52a9d5d4bb630e0874f0f16a
+      internalID: -2130616918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 436
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa2f9814bafba940a121277203ad529
+      internalID: -606459865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 436
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09776ba878ef72246bfc2581060884a6
+      internalID: -11838247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 308
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea59c4343b9975a4dbaf40871b5994b5
+      internalID: 473547229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 308
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bad20a7ec94e047a64fd345f83fa70
+      internalID: 1360774222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 308
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83851f45b4e80b34eb285f6b8da3548b
+      internalID: 475997421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 308
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc68c34b9d4f4bf418a9c723970dd9b8
+      internalID: -827192598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 308
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911bbd3b2b6e81468d3114a57296269
+      internalID: -1998534584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 308
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05594147f175324eb524b8d0fb0bd11
+      internalID: -608005011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 308
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f9ecf20894eb4d9aa313f46729317
+      internalID: -1782838897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 308
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b8b96c65811a48a1bff1aab93cc24
+      internalID: 2140869925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 229
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8d661bf06e1004cbd197c7dd281466
+      internalID: 1648448368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 236
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5eac5986b91b44b6175c850a1f962
+      internalID: -2081464425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 232
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7453476387c660745abf97e986137142
+      internalID: 2117137106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 227
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df401ec634bed0042b90ed798bcb02ac
+      internalID: 869470680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 229
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ea958d3b2f4c48a9caf1e14022a15
+      internalID: -1211556290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 227
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3145d27b0328744ca2e3eb18d5fdbac
+      internalID: -61115219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 227
+        width: 4
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5989bcb57ad8b744bf0046f00e475c3
+      internalID: -213519800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 236
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766c47b9c3a329843b558db46a0efca9
+      internalID: 1930533998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 223
+        width: 4
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a0f5d440de2e647a3b1e4de5f3b7ed
+      internalID: -1245891315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 241
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9477fc68b962aa46b109ee4c4e77c85
+      internalID: -947568923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 238
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbdd6db1c160c945a66557491d5e66a
+      internalID: 510809168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 220
+        width: 4
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04317257e7f77448a4f49e8cff7a343
+      internalID: 96582172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 229
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d3683061c10e64abe3723f8767bb7f
+      internalID: 1765936873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 223
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd3eb97e4e4037448d3eb642769674f
+      internalID: 1546489562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 214
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24637698d5dd5ba43a06d74a42cbcc5a
+      internalID: -1052999364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 200
+        width: 4
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f22fe47f6fbe1142b3e0577747e4777
+      internalID: 691666019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 193
+        width: 4
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9700359f2acd3f24491cf36f8cf446c7
+      internalID: -2027495093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 200
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1fb04d4f03f514ab757f0f4ed228e3
+      internalID: 1787483716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 191
+        width: 5
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c7608a3b6718f4ab5286e840f4fb98
+      internalID: -579632227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 187
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451f1474844a56b429ca6b39c78351a1
+      internalID: -1567885622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 173
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060327dbddbd09a4584e493e0d6ef0d4
+      internalID: -1719493956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 184
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99306e3116710394f81daaa2e7db198f
+      internalID: 1690824033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 187
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559daf62371284a4da6c4fafcad1aafc
+      internalID: -907061881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 191
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc338f943cf41841aeb1361a6df7226
+      internalID: 235969923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 180
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1868a504674a844ca2d83101d0b7d27
+      internalID: -877948502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 171
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b91b784d678af49a2b13b34e66cab1
+      internalID: 632176038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 189
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715167046070b9143b826b34c0320be9
+      internalID: -847892034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 173
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daa970c68235f94fb5aa765882f7336
+      internalID: 1732972086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 178
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdf014ba5e6fd4e8282d333dcdedda
+      internalID: 1343257027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 162
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f7d92e640d5754daf46de2920733cb
+      internalID: 1553002306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 128
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1d732cbca81f48b76876db890875b
+      internalID: -964536530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 126
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93d4d5a4d23d4e4f83ef1c1a0f32059
+      internalID: -1324294002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 128
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb890ce80a262b143a5cd31694c5cfbe
+      internalID: -1462073843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 126
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aacbf69bfd62584abf72dfbdf54bcc9
+      internalID: 1454640760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 126
+        width: 74
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1948f4569081fae469fc63123a1d224f
+      internalID: 518684553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 126
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e580df0a0df6274cad79f44642b44c3
+      internalID: -1486026448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 155
+        width: 5
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6feaa641efff1f14fa974e4372bf6b04
+      internalID: -333546300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 146
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e1cd1c8bd75414485ac89b8e8329b9
+      internalID: -961055779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 126
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4add53354e1fd499a56b91dd39e358
+      internalID: -574906659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 128
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379da2ee84fae584d81b4be9e413fac7
+      internalID: -1809462456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 126
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d2c684b55c57d4e8fd57738e18640a
+      internalID: 877242028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 128
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f82b6d7d16df9469b78769ab530e57
+      internalID: 1030967412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 128
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f59b614bf41e14da1eb7ff10423662
+      internalID: -518453764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 128
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9498043b7a3a0a4478bb70f51b18916f
+      internalID: -1838651848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 126
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fd9cfecbd38854092e0b5744edec80
+      internalID: -19777682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 126
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eddad7e461889c44808e0e46770af50
+      internalID: -1102518985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 128
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4053ac178f7f5644b53ead6067d7e58
+      internalID: -377128992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 126
+        width: 76
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7d4653ab88a7449b1a7e4db9046886
+      internalID: 407468512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 126
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d2290b91e660a48a987a9a4e854391
+      internalID: 993412943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 126
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7d816fee142b4798863f777ac581d
+      internalID: -982165452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 126
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698986e3854c85d49bb592ecaec1540b
+      internalID: 2003606305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 126
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3d9d134598b9f4f9526099a4e2468f
+      internalID: -1178463595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 126
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c6927a46094448ba430d6f2d0f2f5
+      internalID: 1316243165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 126
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd8f61040c99ce45a10ff5f0f195109
+      internalID: -638199056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 126
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95939014abbd5e947bc3ebd17345f211
+      internalID: -385832829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 126
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65bcb1d2368f014686b59309d963bdb
+      internalID: 452204284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 126
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdfb87187628a14191bcd4cf06c0423
+      internalID: -610420089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 126
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc36ac4f1fa7fd469c883ad1a50b754
+      internalID: -647830119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 126
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c90aa0c5ed2b34ebddedd4bd254503
+      internalID: 312106314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 126
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d44b95fa3627a94591750bacb5f0989
+      internalID: -1243034158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 126
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02891d016a538924e9c93f1a6c02f206
+      internalID: -2008385706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 126
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e938fe1d36294f4d9958f5551c68e4e
+      internalID: 1488618556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 641
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306ee86bd4c3eef489583c89d89aed2e
+      internalID: 25868223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 63
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b96c870d0d2d4b9aedcd39fe96e33
+      internalID: -411137860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 63
+        width: 108
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7152cc724132cb04bbb0424353de0bbb
+      internalID: -1545127971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 63
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf253577e34454a8f69aee002a5f73
+      internalID: 1921829878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 63
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a926aa196fa94a428068db530c45338
+      internalID: -1555000800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 63
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c53d1e8b9f6b7e4bbd3ab27c15a7a2d
+      internalID: 1809875016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 63
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec760d06199ba684d93b6202b54956fc
+      internalID: 623276853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 63
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297157bf9896dc4abe31c4f1ddbdb9e
+      internalID: -1017492983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 63
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3afe700d72ab7b49a99d4d2f7551f8a
+      internalID: 730711581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: projectiles_and_effects_256x128_SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 63
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e0ba684cc69a848b04b11e2e4f953a
+      internalID: -290836019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +2615,125 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      projectiles_and_effects_256x128_SpriteSheet_71: 632176038
+      projectiles_and_effects_256x128_SpriteSheet_111: 1921829878
+      projectiles_and_effects_256x128_SpriteSheet_17: 806078573
+      projectiles_and_effects_256x128_SpriteSheet_58: 1765936873
+      projectiles_and_effects_256x128_SpriteSheet_66: -1719493956
+      projectiles_and_effects_256x128_SpriteSheet_49: 869470680
+      projectiles_and_effects_256x128_SpriteSheet_68: -907061881
+      projectiles_and_effects_256x128_SpriteSheet_43: -608005011
+      projectiles_and_effects_256x128_SpriteSheet_72: -847892034
+      projectiles_and_effects_256x128_SpriteSheet_0: 1092269567
+      projectiles_and_effects_256x128_SpriteSheet_96: 2003606305
+      projectiles_and_effects_256x128_SpriteSheet_112: -1555000800
+      projectiles_and_effects_256x128_SpriteSheet_57: 96582172
+      projectiles_and_effects_256x128_SpriteSheet_45: 2140869925
+      projectiles_and_effects_256x128_SpriteSheet_113: 1809875016
+      projectiles_and_effects_256x128_SpriteSheet_79: 1454640760
+      projectiles_and_effects_256x128_SpriteSheet_11: 1257153710
+      projectiles_and_effects_256x128_SpriteSheet_34: 27506002
+      projectiles_and_effects_256x128_SpriteSheet_50: -1211556290
+      projectiles_and_effects_256x128_SpriteSheet_69: 235969923
+      projectiles_and_effects_256x128_SpriteSheet_44: -1782838897
+      projectiles_and_effects_256x128_SpriteSheet_85: -1809462456
+      projectiles_and_effects_256x128_SpriteSheet_4: -1919076938
+      projectiles_and_effects_256x128_SpriteSheet_110: -1545127971
+      projectiles_and_effects_256x128_SpriteSheet_16: -1594269889
+      projectiles_and_effects_256x128_SpriteSheet_35: -2130616918
+      projectiles_and_effects_256x128_SpriteSheet_90: -19777682
+      projectiles_and_effects_256x128_SpriteSheet_86: 877242028
+      projectiles_and_effects_256x128_SpriteSheet_78: -1462073843
+      projectiles_and_effects_256x128_SpriteSheet_98: 1316243165
+      projectiles_and_effects_256x128_SpriteSheet_106: -2008385706
+      projectiles_and_effects_256x128_SpriteSheet_67: 1690824033
+      projectiles_and_effects_256x128_SpriteSheet_37: -11838247
+      projectiles_and_effects_256x128_SpriteSheet_33: -133069174
+      projectiles_and_effects_256x128_SpriteSheet_104: 312106314
+      projectiles_and_effects_256x128_SpriteSheet_47: -2081464425
+      projectiles_and_effects_256x128_SpriteSheet_73: 1732972086
+      projectiles_and_effects_256x128_SpriteSheet_76: -964536530
+      projectiles_and_effects_256x128_SpriteSheet_20: 762952655
+      projectiles_and_effects_256x128_SpriteSheet_87: 1030967412
+      projectiles_and_effects_256x128_SpriteSheet_40: 475997421
+      projectiles_and_effects_256x128_SpriteSheet_88: -518453764
+      projectiles_and_effects_256x128_SpriteSheet_116: 730711581
+      projectiles_and_effects_256x128_SpriteSheet_103: -647830119
+      projectiles_and_effects_256x128_SpriteSheet_52: -213519800
+      projectiles_and_effects_256x128_SpriteSheet_15: -707922550
+      projectiles_and_effects_256x128_SpriteSheet_84: -574906659
+      projectiles_and_effects_256x128_SpriteSheet_61: 691666019
+      projectiles_and_effects_256x128_SpriteSheet_94: 993412943
+      projectiles_and_effects_256x128_SpriteSheet_77: -1324294002
+      projectiles_and_effects_256x128_SpriteSheet_32: 428105039
+      projectiles_and_effects_256x128_SpriteSheet_6: -985671501
+      projectiles_and_effects_256x128_SpriteSheet_8: -2079396096
+      projectiles_and_effects_256x128_SpriteSheet_31: -291810397
+      projectiles_and_effects_256x128_SpriteSheet_10: 750756386
+      projectiles_and_effects_256x128_SpriteSheet_48: 2117137106
+      projectiles_and_effects_256x128_SpriteSheet_9: -200226310
+      projectiles_and_effects_256x128_SpriteSheet_95: -982165452
+      projectiles_and_effects_256x128_SpriteSheet_25: -437902158
+      projectiles_and_effects_256x128_SpriteSheet_107: 1488618556
+      projectiles_and_effects_256x128_SpriteSheet_55: -947568923
+      projectiles_and_effects_256x128_SpriteSheet_3: 532254142
+      projectiles_and_effects_256x128_SpriteSheet_108: 25868223
+      projectiles_and_effects_256x128_SpriteSheet_12: -1139051519
+      projectiles_and_effects_256x128_SpriteSheet_64: -579632227
+      projectiles_and_effects_256x128_SpriteSheet_2: 1088242563
+      projectiles_and_effects_256x128_SpriteSheet_99: -638199056
+      projectiles_and_effects_256x128_SpriteSheet_7: -123988440
+      projectiles_and_effects_256x128_SpriteSheet_115: -1017492983
+      projectiles_and_effects_256x128_SpriteSheet_53: 1930533998
+      projectiles_and_effects_256x128_SpriteSheet_21: 747523234
+      projectiles_and_effects_256x128_SpriteSheet_100: -385832829
+      projectiles_and_effects_256x128_SpriteSheet_70: -877948502
+      projectiles_and_effects_256x128_SpriteSheet_46: 1648448368
+      projectiles_and_effects_256x128_SpriteSheet_63: 1787483716
+      projectiles_and_effects_256x128_SpriteSheet_101: 452204284
+      projectiles_and_effects_256x128_SpriteSheet_30: -1462796521
+      projectiles_and_effects_256x128_SpriteSheet_1: 1582912372
+      projectiles_and_effects_256x128_SpriteSheet_5: -73109084
+      projectiles_and_effects_256x128_SpriteSheet_36: -606459865
+      projectiles_and_effects_256x128_SpriteSheet_109: -411137860
+      projectiles_and_effects_256x128_SpriteSheet_41: -827192598
+      projectiles_and_effects_256x128_SpriteSheet_60: -1052999364
+      projectiles_and_effects_256x128_SpriteSheet_39: 1360774222
+      projectiles_and_effects_256x128_SpriteSheet_102: -610420089
+      projectiles_and_effects_256x128_SpriteSheet_56: 510809168
+      projectiles_and_effects_256x128_SpriteSheet_14: 1553846300
+      projectiles_and_effects_256x128_SpriteSheet_83: -961055779
+      projectiles_and_effects_256x128_SpriteSheet_82: -333546300
+      projectiles_and_effects_256x128_SpriteSheet_92: -377128992
+      projectiles_and_effects_256x128_SpriteSheet_13: -753725560
+      projectiles_and_effects_256x128_SpriteSheet_80: 518684553
+      projectiles_and_effects_256x128_SpriteSheet_51: -61115219
+      projectiles_and_effects_256x128_SpriteSheet_24: 321507399
+      projectiles_and_effects_256x128_SpriteSheet_19: 227559400
+      projectiles_and_effects_256x128_SpriteSheet_62: -2027495093
+      projectiles_and_effects_256x128_SpriteSheet_54: -1245891315
+      projectiles_and_effects_256x128_SpriteSheet_89: -1838651848
+      projectiles_and_effects_256x128_SpriteSheet_18: -983616785
+      projectiles_and_effects_256x128_SpriteSheet_27: 2138981299
+      projectiles_and_effects_256x128_SpriteSheet_65: -1567885622
+      projectiles_and_effects_256x128_SpriteSheet_29: 851059636
+      projectiles_and_effects_256x128_SpriteSheet_38: 473547229
+      projectiles_and_effects_256x128_SpriteSheet_23: -1514797551
+      projectiles_and_effects_256x128_SpriteSheet_117: -290836019
+      projectiles_and_effects_256x128_SpriteSheet_59: 1546489562
+      projectiles_and_effects_256x128_SpriteSheet_81: -1486026448
+      projectiles_and_effects_256x128_SpriteSheet_74: 1343257027
+      projectiles_and_effects_256x128_SpriteSheet_93: 407468512
+      projectiles_and_effects_256x128_SpriteSheet_26: 96227768
+      projectiles_and_effects_256x128_SpriteSheet_114: 623276853
+      projectiles_and_effects_256x128_SpriteSheet_91: -1102518985
+      projectiles_and_effects_256x128_SpriteSheet_105: -1243034158
+      projectiles_and_effects_256x128_SpriteSheet_75: 1553002306
+      projectiles_and_effects_256x128_SpriteSheet_42: -1998534584
+      projectiles_and_effects_256x128_SpriteSheet_28: 1476277512
+      projectiles_and_effects_256x128_SpriteSheet_97: -1178463595
+      projectiles_and_effects_256x128_SpriteSheet_22: -503588679
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
