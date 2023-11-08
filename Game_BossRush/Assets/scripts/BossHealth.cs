@@ -1,14 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bOSShEALTH : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     public int health = 500;
 
     public GameObject deathEffect;
 
     public bool isInvulnerable = false;
+
+    public int flechaDmg;
+    public int raioDmg;
     
     public void TakeDamage(int damage)
     {
@@ -19,7 +23,7 @@ public class bOSShEALTH : MonoBehaviour
 
         if (health <= 200)
         {
-            GetComponent<Animator>().SetBool("IsEnraged", true);
+            GetComponent<Animator>().SetBool("isEnraged", true);
         }
 
         if (health <= 0)
@@ -27,7 +31,19 @@ public class bOSShEALTH : MonoBehaviour
             Die();
         }
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Flecha")
+        {
+            TakeDamage(flechaDmg);
+        }
+        if (col.gameObject.tag == "RaioPlayer")
+        {
+            TakeDamage(flechaDmg);
+        }
+    }
+
     void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bullet
+  - Flecha
+  - RaioPlayer
+  - Boss3atk1
+  - Boss3atk2
   layers:
   - Default
   - TransparentFX
