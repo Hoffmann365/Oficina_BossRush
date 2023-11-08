@@ -40,13 +40,13 @@ public class BossHealth : MonoBehaviour
         }
         if (col.gameObject.tag == "RaioPlayer")
         {
-            TakeDamage(flechaDmg);
+            TakeDamage(raioDmg);
         }
     }
 
     void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 

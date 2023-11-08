@@ -761,7 +761,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.92, y: 0.66}
+    oldSize: {x: 0.31, y: 0.66}
     newSize: {x: 0.31, y: 0.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -864,11 +864,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ec409dc98e504b868bab74a85721b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 210
+  health: 500
   deathEffect: {fileID: 0}
   isInvulnerable: 0
   flechaDmg: 20
-  raioDmg: 20
+  raioDmg: 40
 --- !u!1 &1050063971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,11 +1263,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2488332501967421163, guid: cd19b693c9098dc4085d15664a055856, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.16
+      value: -5.95
       objectReference: {fileID: 0}
     - target: {fileID: 2488332501967421163, guid: cd19b693c9098dc4085d15664a055856, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.73
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 2488332501967421163, guid: cd19b693c9098dc4085d15664a055856, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1308,6 +1308,26 @@ PrefabInstance:
     - target: {fileID: 2488332501967421165, guid: cd19b693c9098dc4085d15664a055856, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3486969821622912104, guid: cd19b693c9098dc4085d15664a055856, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
+      propertyPath: arrow
+      value: 
+      objectReference: {fileID: 5052541621756821705, guid: ac3cf91101c713d4d8ec56c536b957d8, type: 3}
+    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
+      propertyPath: unlockWpnSwitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474525848947374947, guid: cd19b693c9098dc4085d15664a055856, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd19b693c9098dc4085d15664a055856, type: 3}
