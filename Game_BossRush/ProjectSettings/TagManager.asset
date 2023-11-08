@@ -13,6 +13,7 @@ TagManager:
   - Bullet
   - Boss3atk1
   - Boss3atk2
+  - Ground
   layers:
   - Default
   - TransparentFX

@@ -48,11 +48,13 @@ public class Player : MonoBehaviour
         healthBarScale = healthBar.localScale;
         healthPercent = healthBarScale.x / health;
     }
+    
 
     private void OnTriggerStay2D(Collider2D feet)
     {
         onAir = false;
         isJumping = false;
+
     }
 
     private void OnTriggerExit2D(Collider2D feet)
@@ -70,6 +72,7 @@ public class Player : MonoBehaviour
         {
             Damage(raioBossDmg);
         }
+        
     }
 
     void UpdateHealthBar()
