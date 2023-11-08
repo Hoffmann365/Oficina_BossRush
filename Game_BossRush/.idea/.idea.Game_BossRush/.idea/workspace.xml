@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="617aebc1-39e8-4079-b4f3-a0e64427ba9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_BossRush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_BossRush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/player_hit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/player_hit.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player Scripts/Arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player Scripts/Arrow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Player Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Honny Boss1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Honny Boss1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAtack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAtack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

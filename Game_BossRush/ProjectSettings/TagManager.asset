@@ -10,6 +10,7 @@ TagManager:
   - RaioBoss
   - Flecha
   - RaioPlayer
+  - Ground
   layers:
   - Default
   - TransparentFX
