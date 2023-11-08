@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -15,12 +16,24 @@ public class Player : MonoBehaviour
     public PlayerSkills currentWeapon = PlayerSkills.normalBow;
     public float speed;
     public float jumpForce;
+    public int health;
     public bool onAir;
     public bool unlockWpnSwitch;
+    public GameObject arrow;
+    public Transform firePoint;
+    public Transform healthBar;
+    public GameObject healthBarObject;
+
+    private Vector3 healthBarScale;
+    private float healthPercent;
     
     private float movement;
     private bool isJumping;
     private bool isFire;
+    
+    public int bulletBossDmg;
+    public int raioBossDmg;
+    
     
     private Rigidbody2D rig;
     private Animator anim;
@@ -29,6 +42,9 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        //barra de vida
+        healthBarScale = healthBar.localScale;
+        healthPercent = healthBarScale.x / health;
     }
 
     private void OnTriggerStay2D(Collider2D coll)
@@ -42,16 +58,41 @@ public class Player : MonoBehaviour
         onAir = true;
     }
 
+    private void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.CompareTag("BulletBoss"))
+        {
+            Debug.Log("colidindo com BulletBoss");
+            Damage(bulletBossDmg);
+        }
+        if (coll.gameObject.CompareTag("RaioBoss"))
+        {
+            Damage(raioBossDmg);
+        }
+    }
+
+    void UpdateHealthBar()
+    {
+        healthBarScale.x = healthPercent * health;
+        healthBar.localScale = healthBarScale;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Jump();
+        
         Shoot();
         if (unlockWpnSwitch)
         {
             WeaponSwitch();
         }
+    }
+
+    void FixedUpdate()
+    {
+        Move();
+        Jump();
+        
     }
 
     void Move()
@@ -67,6 +108,7 @@ public class Player : MonoBehaviour
                 anim.SetInteger("transition", 1);
             }
             transform.eulerAngles = new Vector3(0,0,0);
+            
         }
         if (movement < 0)
         {
@@ -74,8 +116,13 @@ public class Player : MonoBehaviour
             {
                 anim.SetInteger("transition", 1);
             }
-    
+            
             transform.eulerAngles = new Vector3(0,180,0);
+            
+            
+            
+            
+            
         }
         if(movement == 0 && !onAir && !isJumping && !isFire)
         {
@@ -86,6 +133,9 @@ public class Player : MonoBehaviour
         {
             movement = 0;
         }
+
+        
+        
     }
 
     void Jump()
@@ -118,12 +168,11 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        StartCoroutine("Arrow");
+        StartCoroutine("BowFire");
     }
 
-    IEnumerator Arrow()
+    IEnumerator BowFire()
     {
-        //falta configurar pra sair flecha no tiro (só animação rodando)
         if (currentWeapon == PlayerSkills.normalBow)
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -154,5 +203,51 @@ public class Player : MonoBehaviour
         anim.SetBool("Attacking1", false);
         anim.SetBool("Attacking2", false);
         anim.SetInteger("transition", 0);
+    }
+
+    void InstArrow()
+    {
+        GameObject Arrow = Instantiate(arrow, firePoint.position, firePoint.rotation);
+        if (transform.rotation.y == 0)
+        {
+            Arrow.GetComponent<Arrow>().isRight = true;
+        }
+        if (transform.rotation.y == 180)
+        {
+            Arrow.GetComponent<Arrow>().isRight = false;
+        }
+    }
+
+    void Damage(int dmg)
+    {
+        
+        health -= dmg;
+        UpdateHealthBar();
+        anim.SetTrigger("hit");
+        
+        if (transform.rotation.y == 0)
+        {
+            transform.position += new Vector3(-0.5f, 0, 0);
+        }
+
+        if (transform.rotation.y == 180)
+        {
+            transform.position += new Vector3(0.5f, 0, 0);
+        }
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        
+        anim.SetTrigger("die");
+        Destroy(rig);
+        Destroy(GetComponent<CapsuleCollider2D>());
+        Destroy(GetComponent<BoxCollider2D>());
+        Destroy(gameObject, 0.8f);
     }
 }
