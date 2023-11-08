@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
         onAir = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D coll)
+    private void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.CompareTag("BulletBoss"))
         {
@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
     {
         
         Shoot();
+        Unbug();
         if (unlockWpnSwitch)
         {
             WeaponSwitch();
@@ -151,6 +152,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+    
 
     void WeaponSwitch()
     {
@@ -221,7 +223,8 @@ public class Player : MonoBehaviour
 
     void Damage(int dmg)
     {
-        
+        anim.SetBool("Attacking1", false);
+        anim.SetBool("Attacking2", false);
         health -= dmg;
         UpdateHealthBar();
         anim.SetTrigger("hit");
@@ -250,5 +253,14 @@ public class Player : MonoBehaviour
         Destroy(GetComponent<CapsuleCollider2D>());
         Destroy(GetComponent<BoxCollider2D>());
         Destroy(gameObject, 0.8f);
+    }
+
+    void Unbug()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            anim.SetBool("Attacking1", false);
+            anim.SetBool("Attacking2", false);
+        }
     }
 }

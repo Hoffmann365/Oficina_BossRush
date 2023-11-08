@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.UIElements;
@@ -28,6 +29,14 @@ public class Arrow : MonoBehaviour
         else
         {
             rig.velocity = Vector2.left * speed;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.CompareTag("Boss1"))
+        {
+            Destroy(gameObject);
         }
     }
 }
