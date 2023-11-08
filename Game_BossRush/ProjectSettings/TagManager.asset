@@ -10,6 +10,9 @@ TagManager:
   - RaioBoss
   - Flecha
   - RaioPlayer
+  - Bullet
+  - Boss3atk1
+  - Boss3atk2
   layers:
   - Default
   - TransparentFX

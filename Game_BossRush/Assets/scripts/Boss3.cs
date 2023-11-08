@@ -6,8 +6,8 @@ public class Boss3 : MonoBehaviour
 {
     public Transform player;
 
-    public bool isFlipped = false;
-
+    public static bool isFlipped = false;
+    
     public void LookAtPlayer()
     {
         Vector3 flipped = transform.localScale;
@@ -25,16 +25,5 @@ public class Boss3 : MonoBehaviour
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
