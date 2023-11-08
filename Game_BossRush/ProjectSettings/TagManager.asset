@@ -9,6 +9,7 @@ TagManager:
   - BulletBoss
   - RaioBoss
   - Flecha
+  - RaioPlayer
   layers:
   - Default
   - TransparentFX

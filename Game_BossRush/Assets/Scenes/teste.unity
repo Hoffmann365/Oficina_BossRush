@@ -178,18 +178,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
-      propertyPath: health
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
-      propertyPath: raioBossDmg
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3659545691540996754, guid: cd19b693c9098dc4085d15664a055856, type: 3}
-      propertyPath: bulletBossDmg
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd19b693c9098dc4085d15664a055856, type: 3}
 --- !u!1 &986707001

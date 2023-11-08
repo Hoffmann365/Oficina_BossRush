@@ -23,16 +23,18 @@ public class Player : MonoBehaviour
     public Transform firePoint;
     public Transform healthBar;
     public GameObject healthBarObject;
+    
+    public static float movement;
 
     private Vector3 healthBarScale;
     private float healthPercent;
     
-    private float movement;
     private bool isJumping;
     private bool isFire;
     
     public int bulletBossDmg;
     public int raioBossDmg;
+    public BoxCollider2D feet;
     
     
     private Rigidbody2D rig;
@@ -47,13 +49,13 @@ public class Player : MonoBehaviour
         healthPercent = healthBarScale.x / health;
     }
 
-    private void OnTriggerStay2D(Collider2D coll)
+    private void OnTriggerStay2D(Collider2D feet)
     {
         onAir = false;
         isJumping = false;
     }
 
-    private void OnTriggerExit2D(Collider2D coll)
+    private void OnTriggerExit2D(Collider2D feet)
     {
         onAir = true;
     }
@@ -62,7 +64,6 @@ public class Player : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("BulletBoss"))
         {
-            Debug.Log("colidindo com BulletBoss");
             Damage(bulletBossDmg);
         }
         if (coll.gameObject.CompareTag("RaioBoss"))
