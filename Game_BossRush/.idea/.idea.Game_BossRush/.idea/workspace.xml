@@ -6,7 +6,210 @@
   <component name="ChangeListManager">
     <list default="true" id="617aebc1-39e8-4079-b4f3-a0e64427ba9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_BossRush/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_BossRush/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/EnemyAtack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/EnemyAtack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Boss_Walk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Boss_Walk.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 1.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 1.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 2.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 2.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 3.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 3.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 4.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 4.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 5.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 5.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 6.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 6.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 7.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 7.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 8.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/craftpix-net-427565-free-sky-with-clouds-background-pixel-art-set/PSD/Clouds 8.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/COUPON.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/COUPON.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/COUPON.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/COUPON.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Font.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Font.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Licens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Licens.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Fire_Mage_Spritelist.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Fire_Mage_Spritelist.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Light_Mage_Spritelist.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Light_Mage_Spritelist.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Wanderer_Magican_Spritelist.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/PSD/Wanderer_Magican_Spritelist.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Attack_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Attack_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Attack_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Attack_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Charge_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Charge_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Charge_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Charge_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Dead.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Hurt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Hurt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Idle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Idle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Magic_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Magic_arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Magic_sphere.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Magic_sphere.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Run.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/Walk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Boss.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Boss.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Hurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Hurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/atack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/atack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/atack2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/atack2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/dead.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/dead.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art-20231023T135454Z-001/craftpix-net-431295-free-wizard-sprite-sheets-pixel-art/Wanderer Magican/animações/run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/COUPON.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/COUPON.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/COUPON.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/COUPON.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 1/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 2/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 3/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 4/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 5/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 6/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 7/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter 8/hd.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/3.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/3.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/4.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/4.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/5.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/5.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/6.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/6.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/7.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/7.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/8.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-882062-free-winter-backgrounds-pixel-art/winter_previev/8.psd.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +227,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
@@ -95,6 +297,7 @@
       <workItem from="1699446532825" duration="1649000" />
       <workItem from="1699451445421" duration="2454000" />
       <workItem from="1699630805025" duration="1015000" />
+      <workItem from="1699633408109" duration="7441000" />
     </task>
     <servers />
   </component>

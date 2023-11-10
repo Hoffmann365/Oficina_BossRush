@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,9 @@ public class Boss3 : MonoBehaviour
     public Transform player;
 
     public static bool isFlipped = false;
-    
+    [SerializeField] public AudioSource attackSound;
+
+
     public void LookAtPlayer()
     {
         Vector3 flipped = transform.localScale;
