@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyAtack : MonoBehaviour
@@ -52,6 +53,11 @@ public class EnemyAtack : MonoBehaviour
             RotationsAndCalculos();
         }
 
+        if (Isdead== true)
+        {
+            Invoke("NewScene",3f);
+        }
+
         if (isfire == true)
         {
             TimeForMove -= Time.deltaTime;
@@ -60,6 +66,11 @@ public class EnemyAtack : MonoBehaviour
                 isfire = false;
                 TimeForMove = 1.5f;
             }
+        }
+
+        if (player == null)
+        {
+            SceneManager.LoadScene(0);
         }
 
     }
@@ -161,8 +172,9 @@ public class EnemyAtack : MonoBehaviour
             anim.SetTrigger("Dead");
             Destroy(GetComponent<Rigidbody2D>());
             Destroy(GetComponent<BoxCollider2D>());
-            Destroy(gameObject, 5f);
-            
+            Destroy(gameObject, 2.5f);
+            SceneManager.LoadScene(1);
+
         }
     }
     void RotationsAndCalculos()
@@ -210,5 +222,5 @@ public class EnemyAtack : MonoBehaviour
     {
         healthSlider.value = currentHealth;
     }
-    
+
 }
