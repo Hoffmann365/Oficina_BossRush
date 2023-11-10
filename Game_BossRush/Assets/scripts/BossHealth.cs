@@ -54,14 +54,14 @@ public class BossHealth : MonoBehaviour
         IEnumerator HurtAnimation()
         {
             animator.SetBool("Hurt", true);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.1f);
             animator.SetBool("Hurt", false);
         }
         
         IEnumerator DieAnimation()
         {
             animator.SetBool("Dead", true);
-            yield return new WaitForSeconds(2.0f); // Tempo da animação de morte
+            yield return new WaitForSeconds(0.4f); // Tempo da animação de morte
             Destroy(gameObject);
         }
         

@@ -38,5 +38,9 @@ public class Arrow : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (coll.gameObject.CompareTag("Boss3"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

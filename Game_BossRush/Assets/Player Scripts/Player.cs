@@ -34,6 +34,8 @@ public class Player : MonoBehaviour
     
     public int bulletBossDmg;
     public int raioBossDmg;
+    public int atk1Boss3;
+    public int atk2Boss3;
     public BoxCollider2D feet;
     
     
@@ -71,6 +73,14 @@ public class Player : MonoBehaviour
         if (coll.gameObject.CompareTag("RaioBoss"))
         {
             Damage(raioBossDmg);
+        }
+        if (coll.gameObject.CompareTag("Boss3atk1"))
+        {
+            Damage(atk1Boss3);
+        }
+        if (coll.gameObject.CompareTag("Boss3atk2"))
+        {
+            Damage(atk2Boss3);
         }
         
     }
@@ -228,6 +238,7 @@ public class Player : MonoBehaviour
     {
         anim.SetBool("Attacking1", false);
         anim.SetBool("Attacking2", false);
+        anim.SetInteger("transition", 0);
         health -= dmg;
         UpdateHealthBar();
         anim.SetTrigger("hit");
